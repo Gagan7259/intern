@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 1px;
+    box-sizing: border-box;
+}
+h1 {
+    font-size: 20px;
+    border: 2px dotted grey;
+}
+
+p {
+    font-size: 1.16rem;
+    width: 61ch;
+    /* font-size: 2em; */
+    /* 1 rem is equal to 16px*/
+    /* 1 em is equal to 16px*/
+}

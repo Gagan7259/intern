@@ -1,0 +1,23 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* h1 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border: 2px solid papayawhip;
+    width: 100%;
+} */
+
+/* width==>Content width */
+/* height==> Content height */
+/* Padding==> Space around content */
+/*Border==> Border around padding */
+/* Margin==>Space outside border */
+.container{
+    border: 2px solid papayawhip;
+    font-size: 1rem;
+    padding: 2rem;
+    margin: 0.9rem;
+}

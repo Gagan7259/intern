@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+
+<body>
+    <article id="contact">
+        <h2>Contact Me</h2>
+        <form action="https://httpbin.org/get" method="get">
+            <fieldset>
+                <legend>Personal Information</legend>
+                <p> <label for="firstName">FirstName</label>
+                    <input type="text" name="firstName" id="firstName" autocomplete="on" placeholder="ex:Gagan"
+                        required="true" autofocus>
+                </p>
+                <p><label for="lastName">lastName</label>
+                    <input type="text" name="lastName" id="lastName" autocomplete="on" placeholder="ex:kumar"
+                        required="true">
+                </p>
+                <p><label for="password">Password</label>
+                    <input type="password" name="password" id="password" placeholder="example@12" required="true">
+                </p>
+                <p><label for="decade">Phone</label>
+                    <input type="number"  name="phone" id="phone"
+                         placeholder="+91 123456789" required="true">
+                </p>
+                <p>
+                    <label for="decade">Fav Decade</label>
+                    <input type="number" min="1950" max="2023" step="1" value="1970">
+                </p>
+                <p>
+                    <label for="coffe">Favorite Coffe</label>
+                    <select name="coffe" id="coffe">
+                        <optgroup label="Coffes">
+                            <option acti value="regular coffe">Regular coffe</option>
+                            <option acti value="special coffe">Special coffe</option>
+                            <option value="iced Coffe">Iced Coffe</option>
+                        </optgroup>
+                        <optgroup label="drinks">
+                            <option value="americano">Americano </option>
+                            <option value="latte">Latte </option>
+                        </optgroup>
+                        <optgroup label="other">
+                            <option value="other">Other</option>
+                        </optgroup>
+                    </select>
+                </p>
+                <!-- <p>
+                <label for="coffe">Favorite Coffe</label>
+                <input type="text" name="coffe" id="coffe" list="coffe-list">
+                <datalist id="coffe-list">
+                    <option value="coffe">
+                    <option value="latte">
+                    <option value="americano">
+                    <option value="espresso">
+                    <option value="other">
+                </datalist>
+            </p> -->
+            </fieldset>
+
+            <fieldset>
+                <legend>What is your Fav Food</legend>
+                <p><label for="food">Tacos</label>
+                    <input type="radio" value="food" id="food">
+                </p>
+                <p><label for="food">Pizza</label>
+                    <input type="radio" value="food" id="food">
+                </p>
+                <p></p><label for="food">other</label>
+                <input type="radio" value="food" id="food"></p>
+            </fieldset>
+            <fieldset>
+                <legend>Do You Have Pets</legend>
+                <p><input type="checkbox" value="pets" id="pets">
+                    <label for="pets">Cat</label>
+                </p>
+
+                </p>
+                <p>
+                    <input type="checkbox" value="pets" id="pets">
+                    <label for="pets">Gog</label>
+                </p>
+                <p>
+                    <input type="checkbox" value="pets" id="pets">
+                    <label for="pets">Parrot</label>
+                </p>
+                <p>
+                    <input type="checkbox" value="pets" id="pets">
+                    <label for="other">Other</label>
+                </p>
+            </fieldset>
+            <fieldset>
+                <legend>Send me a note</legend>
+                <p><label for="message">Your Message Is:</label><br>
+                    <textarea name="message" id="message" placeholder="type your message here" cols="30"
+                        rows="10"></textarea>
+                </p>
+            </fieldset>
+            <br>
+            <button type="submit">submit</button>
+            <button type="reset">Reset</button>
+        </form>
+    </article>
+</body>
+
+</html>

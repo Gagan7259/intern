@@ -1,0 +1,23 @@
+body {
+    font-size: medium;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background: papayawhip;
+    /* color: rgb(255, 0, 0);
+    color: rgb(0, 255, 0); */
+
+    color: rgba(0, 0, 255);
+}
+
+.c2 {
+    /* color: #ff0000;
+    color: #00ff00; */
+
+    color: #0000ff;
+}
+.c3 {
+    /* color: hsla(0, 100%, 50%);
+    color: hsl(360, 29%, 56%); */
+
+    color: hsl(200, 29%, 56%);
+}
+/* browser Default size is 16px */

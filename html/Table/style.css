@@ -1,0 +1,6 @@
+table, tr,td,th,caption{
+    border: 1px solid rgb(218, 212, 224);
+    border-collapse: collapse;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 1rem;
+}

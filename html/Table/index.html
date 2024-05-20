@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <section>
+        <h1>My Daily Schedule</h1>
+        <table>
+            <thead>
+                <tr>
+                    <th>&nbsp;</th>
+                    <th scope="col">Time</th>
+                    <th scope="col">Activity</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th scope="row">Morning</th>
+                    <td> <time datetime="09:00"></time>9Am-<time datetime="11:00">11Am</time></td>
+                    <td>Write code</td>
+                </tr>
+
+                <tr>
+                    <th scope="row">Break</th>
+                    <td> <time datetime="13:00"></time>1Am-<time datetime="14:00">2pm</time></td>
+                    <td>Launch</td>
+                </tr>
+
+                <tr>
+                    <th scope="row">AfterNoon</th>
+                    <td> <time datetime="14:00"></time>2Pm-<time datetime="17:00">17pm</time></td>
+                    <td>Study for other courses</td>
+                </tr>
+                <tr>
+                    <th scope="row">Evening</th>
+                    <td rowspan="2">All other Times</td>
+                    <td>Free time</td>
+                </tr>
+                <tr>
+                    <th scope="row">Night</th>
+                    <td>Sleep</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td colspan="3">That's What I do Every Day, 5 Days In a Week.</td>
+                </tr>
+            </tfoot>
+        </table>
+        <hr>
+        <table>
+            <caption>Holiday Schedule</caption>
+            <thead>
+                <tr>
+                    <th>Time</th>
+                    <th>Activity</th>
+                    <th>Hours</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td> <time datetime="09:00"></time>9Am-<time datetime="11:00">11Am</time></td>
+                    <td>Gaming</td>
+                    <td>2hr</td>
+                </tr>
+
+                <tr>
+                    <td> <time datetime="13:00"></time>1Am-<time datetime="14:00">2pm</time></td>
+                    <td>Launch</td>
+                    <td>1hr</td>
+                </tr>
+
+                <tr>
+                    <td> <time datetime="14:00"></time>2Pm-<time datetime="17:00">17pm</time></td>
+                    <td>Movie</td>
+                    <td>5hr</td>
+                </tr>
+                <tr>
+                    <td rowspan="2">All other Times</td>
+                    <td>Free time</td>
+                    <td>1hr</td>
+                </tr>
+                <tr>
+                    <td>Sleep</td>
+                    <td>1hr</td>
+                </tr>
+                <!-- <tr>
+                <td rowspan="2"></td>
+                <td></td>
+                <td colspan="2">1hr</td>
+                <td>1hr</td>
+                </tr> -->
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td colspan="3">Thats What I do week-off days</td>
+                </tr>
+            </tfoot>
+        </table>
+    </section>
+</body>
+
+</html>

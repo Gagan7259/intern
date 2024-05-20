@@ -1,0 +1,11 @@
+Sematic Tags==>sematic tags define the meaning of the content they contain 
+EX==> section foooter, header, aside, article, details , Summary
+Header
+Nav
+Main
+article
+footer
+Aside
+
+non-sematic Tags==>non sematic tags not define meaning of the contenet they contenet
+EX==><div></div> <span></span>
