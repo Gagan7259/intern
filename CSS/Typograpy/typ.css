@@ -1,0 +1,77 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;1,300;1,400&display=swap');
+
+body {
+    border: 2px solid;
+    width: 20rem;
+    padding: 10%;
+    margin: 100px;
+}
+
+/* button,
+input {
+    font: inherit;
+
+} */
+
+
+/* +-----------------------------+
+|           Margin            |
+|  +-----------------------+  |
+|  |       Border         |  |
+|  |   +---------------+  |  |
+|  |   |   Padding     |  |  |
+|  |   |   +-------+   |  |  |
+|  |   |   | Content|   |  |  |
+|  |   |   +-------+   |  |  |
+|  |   +---------------+  |  |
+|  +-----------------------+  |
++-----------------------------+
+ */
+p {
+    /* TEXT DECORATION */
+    /* text-decoration: overline;
+    text-decoration: underline;
+    text-decoration: line-through;
+    text-decoration: none; */
+
+    /* TEXT TRANSFORM */
+    /* text-transform: capitalize;
+    text-transform: lowercase;
+    text-transform: uppercase;
+    text-transform: none; */
+
+    /* TEXT ALIGN */
+    /* text-align: justify;
+    text-align: right;
+    text-align: left;
+    text-indent: 6em; */
+
+
+    line-height: 1.4;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+
+    /* font-weight: 900;
+    font-weight: unset;
+    font-weight: bolder;
+    font-weight: lighter; */
+
+
+
+    /* FONT FAMILY */
+
+    /* font-style: italic;
+    font-style: oblique;
+    font-style: normal; */
+    /* FONT FAMILY */
+    /* font-family: sans-serif;
+    font-family: monospace;
+    font-family: cursive;
+    font-family: fantasy;
+    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; */
+    font-family: "Roboto";
+
+}

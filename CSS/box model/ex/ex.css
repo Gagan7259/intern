@@ -1,0 +1,21 @@
+.s1 {
+    margin: 60px;
+    padding: 20%;
+    border: 2px solid blue;
+    background-color: aqua;
+    text-align: center;
+width: 14rem;
+}
+.s2{
+    border: 3px solid red;
+    background-color: aquamarine;
+    padding: 2em;
+}
+.s3{
+border: 3px solid yellow;
+background-color: brown;
+}
+.s4{
+    border: 2px solid blue;
+    background-color: blueviolet;
+}
