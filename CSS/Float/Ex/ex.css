@@ -1,0 +1,29 @@
+.block {
+    padding: 10px;
+    margin: 0;
+}
+
+img {
+    width: 20rem;
+}
+
+.left {
+    float: left;
+    margin-right: 2rem;
+}
+
+.right {
+    float: right;
+    margin-left: 1rem;
+}
+
+.clear {
+    clear: both;
+}
+
+section {
+    background-color: antiquewhite;
+    border: 2px solid rgb(127, 123, 117);
+    padding: 1.5rem;
+    overflow:auto ;
+}

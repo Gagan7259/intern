@@ -1,0 +1,41 @@
+body {
+    font-size: larger;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/* p{
+    background-color: lightgray;
+}
+.oppsite{
+    background-color: cadetblue;
+    padding: 20px;
+    display: inline-block;
+} */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul {
+    list-style-type: none;
+    padding: 1rem;
+    background-color: lightgrey;
+    text-align: right;
+    text-align: end;
+}
+
+li {
+    display: inline-block;
+    margin-inline: 1.2rem;
+}
+
+li a {
+    text-decoration: wavy;
+}
+
+li a:hover,
+li a:focus {
+    text-decoration: overline;
+    color: rgb(12, 12, 5);
+}

@@ -1,0 +1,34 @@
+/* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} */
+.block {
+    width: 30vw;
+    height: 30vw;
+    background-color: gold;
+    padding: 1rem;
+}
+
+.left {
+    float: left;
+    margin-right: 2rem;
+
+}
+
+.right {
+    float: right;
+    margin-left: 2rem;
+
+}
+.clear{
+    clear: both;
+}
+
+
+section {
+    background-color: rgb(218, 205, 205);
+    border: 2px solid #333;
+    padding: 1.9rem;
+    overflow: auto;
+}
