@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        .multicolumn {
+            column-count: 3;
+            column-gap: 18px;
+            column-rule: 2px solid gray;
+        }
+
+        .multicolumn-header {
+            column-span: all;
+            font-size: 1.5em;
+            text-align: center;
+            margin-bottom: 10px;
+        }
+
+        .multicolumn-header1 {
+            column-span: all;
+            font-size: 1.5em;
+            text-align: center;
+            margin: 20px;
+        }
+
+        /* li:nth-child(-n+3){
+            color: red;
+        } */
+
+        /* li:nth-child(even){
+            color: red;
+        } */
+
+        /* li:nth-child(odd) {
+            color: red;
+        } */
+
+        /* li:nth-child(n+2){
+            color: red;
+        } */
+
+        li:nth-last-child(2n-1){
+            color: red;
+            transition: 2s ease-in;
+        }
+        
+    </style>
+</head>
+
+<body>
+    <div class="multicolumn">
+        <div class="multicolumn-header">Multi-Column Layout</div>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque id dui in arcu vehicula lacinia.</p>
+        <p>Maecenas sollicitudin est et urna aliquet, at varius lectus condimentum. Cras venenatis, libero nec aliquet
+            malesuada.</p>
+        <p>Sed tristique turpis at risus interdum, eget consectetur mauris facilisis. Fusce aliquet lacus at odio
+            facilisis elementum.</p>
+        <div class="multicolumn-header1">Multi-Column Layout</div>
+        <p>Proin venenatis magna in turpis auctor, a fringilla dui posuere. Nullam facilisis ex id mi pharetra.</p>
+        <p>Mauris egestas augue in sapien fermentum, a accumsan sapien dictum. Aliquam erat volutpat. Sed ut mauris a
+            velit.</p>
+    </div>
+    <section>
+        <ul>
+            <li>a</li>
+            <li>b</li>
+            <li>c</li>
+            <li>d</li>
+            <li>e</li>
+        </ul>
+    </section>
+</body>
+
+</html>

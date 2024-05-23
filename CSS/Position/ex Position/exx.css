@@ -1,0 +1,30 @@
+.parent {
+    border: 2px dotted #333;
+    width: 75vw;
+    height: 85vh;
+    margin: 20px;
+    position: relative;
+}
+
+.child {
+    border: 2px solid grey;
+    width: 50vw;
+    height: 40vh;
+    margin: 90px auto;
+    position: relative;
+}
+
+.box {
+    color: #fff;
+    padding: 2rem;
+    width: 70px;
+    height: 30px;
+}
+
+.absolute {
+    background-color: red;
+    /* position: absolute; */
+    position: relative;
+    top: 20px;
+    left: 30px;
+}

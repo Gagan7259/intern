@@ -1,0 +1,15 @@
+.parent {
+    background-color: rgb(141, 141, 193);
+    width: 10rem;
+    height: 10rem;
+    position: relative;
+}
+
+.child {
+    background-color: rgb(120, 115, 108);
+    width: 5rem;
+    height: 5rem;
+    position: absolute;
+    top: 2px;
+    right: 0;
+}

@@ -1,0 +1,29 @@
+.bluebox {
+    background-color: blue;
+    width: 200px;
+    height: 200px;
+    position: relative;
+}
+
+.yellowbox {
+    background-color: yellowgreen;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 60px;
+    left: 40px;
+}
+
+.green {
+    position: relative;
+    top: 2px;
+}
+
+h1 {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: greenyellow;
+    /* position: sticky; */
+    /* position: fixed; */
+    top: 20px;
+    top: 3px;
+}
