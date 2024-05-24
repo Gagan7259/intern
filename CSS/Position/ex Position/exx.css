@@ -1,3 +1,9 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    width: 100vw;
+    height: 100vh;
+}
+
 .parent {
     border: 2px dotted #333;
     width: 75vw;
@@ -11,7 +17,6 @@
     width: 50vw;
     height: 40vh;
     margin: 90px auto;
-    position: relative;
 }
 
 .box {
@@ -23,8 +28,30 @@
 
 .absolute {
     background-color: red;
-    /* position: absolute; */
+    position: absolute;
+    top: 10px;
+    left: 0;
+    z-index: 1;
+}
+
+.relative {
+    background-color: blue;
     position: relative;
-    top: 20px;
-    left: 30px;
+    top: 50px;
+    left: 150px;
+
+
+}
+
+/* .sticky {
+    background-color: green;
+    position: sticky;
+    top: 1px;
+} */
+
+.fixed {
+    background-color: yellow;
+    position: fixed;
+    top: 12px;
+
 }
