@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h2 {
+    text-align: center;
+    padding: 9px;
+}
+
+.main {
+    width: 400px;
+    height: 200px;
+    padding: 10px;
+    background-color: darkkhaki;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 3px;
+}
+
+h1 {
+    color: whitesmoke;
+    background-color: rgb(138, 156, 156);
+}
+
+.main div {
+    flex-direction: row;
+    align-items: center;
+    flex-basis: 20%;
+}

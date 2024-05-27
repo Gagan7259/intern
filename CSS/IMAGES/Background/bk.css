@@ -1,0 +1,7 @@
+body {
+    min-height: 100vh;
+    background-color: rgb(121, 182, 236);
+    background: repeat-y center url('../istockphoto-1132043892-1024x1024.jpg') linear-gradient(to left steelblue #fff);
+    background-size: 20% auto;
+
+}

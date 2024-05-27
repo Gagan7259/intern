@@ -16,14 +16,16 @@ section {
     background-color: green;
 }
 
-header ,footer{
+header,
+footer {
     text-align: center;
     color: aliceblue;
     font-size: 4rem;
     height: 70px;
-    
+
 }
-header{
+
+header {
     position: sticky;
     top: 0;
 }
@@ -32,4 +34,16 @@ footer {
     background-color: rgb(10, 15, 15);
     position: fixed;
     bottom: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.social {
+    background-color: rgb(61, 61, 130);
+    position: fixed;
+    top: 30%;
+    left: 0;
+    z-index: 1;
 }

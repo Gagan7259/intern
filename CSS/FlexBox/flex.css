@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+    height: 100vh;
+    padding: 20px;
+}
+
+.container {
+    max-width: 800px;
+    max-height: 600px;
+    margin-inline: auto;
+    border: 3px solid #15e806;
+
+}
+.box{
+    min-width: 100px;
+    min-height: 100px;
+    background-color: #0a0909;
+    color: #fff;
+}

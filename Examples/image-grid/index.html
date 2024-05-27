@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Grid</title>
+    <style>
+        figure {
+            display: grid;
+        }
+
+        img,
+        figcaption {
+            grid-column-start: 1;
+            grid-row-start: -1;
+        }
+    </style>
+</head>
+
+<body>
+    <figure>
+        <img src="image.png" alt="how dare you leave alt empty?">
+        <figcaption>The caption of our image</figcaption>
+    </figure>
+</body>
+
+</html>
