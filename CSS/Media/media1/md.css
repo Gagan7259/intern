@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: monospace;
+    min-height: 100vh;
+    font-size: 1.6rem;
+    background-color: #4755;
+    background-image: radial-gradient(to left whitesmoke, blue);
+    display: flex;
+    flex-direction: column;
+}
+
+header,
+nav,
+main,
+footer {
+    display: grid;
+    /* place-items: center; */
+    place-content: center;
+
+}
+
+header,
+footer {
+    position: sticky;
+    background-color: rgba(16, 23, 18, 0.607);
+    color: white;
+}
+
+.h22 {
+    position: sticky;
+}
+
+header {
+    top: 0;
+}
+
+main {
+    flex-grow: 1;
+}
+
+footer {
+    bottom: 0;
+}
+
+/* @media screen and(min-width:482px){
+    h1{
+    }
+    
+} */

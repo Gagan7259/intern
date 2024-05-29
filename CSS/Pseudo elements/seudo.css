@@ -1,0 +1,54 @@
+:root{
+    --bgcolor:rgba(200,250,255,0.2):
+}
+
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 2rem;
+    background-color: var(--bgcolor);
+}
+
+
+.anchor:link {
+    color: rgb(23, 231, 57);
+}
+
+.anchor:hover {
+    color: red;
+}
+
+.anchor:visited {
+    color: rgb(213, 24, 216);
+}
+
+.anchor:active {
+    color: rgb(18, 199, 231);
+}
+
+/* ul li:first-child {
+    background-color: blueviolet;
+}
+ul li:last-child {
+    background-color: rgb(225, 154, 12);
+} */
+
+ul li:nth-child(4) {
+    background-color: rgb(225, 154, 12);
+}
+
+ul li:nth-last-child(2) {
+    background-color: rgb(76, 12, 225);
+}
+
+p::first-line {
+    background-color: var(--bgcolor);
+}
+
+p::first-letter {
+    color: rgb(5, 4, 4);
+}
+
+.required::after {
+    content: '*:';
+    color: red;
+}

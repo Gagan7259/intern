@@ -1,0 +1,22 @@
+:root {
+    /*background color */
+    --bgcolor: rgba(100, 200, 255, 0.6);
+    --bgsecond: hsla(201, 88%, 75%, 0.587);
+    /*border  */
+    --border: 2px solid #333;
+    /*border radius */
+    --radius: 20px;
+}
+
+p {
+    background-color: var(--bgcolor);
+    border: var(--border);
+}
+
+.second {
+    background-color: var(--bgsecond);
+    width: 50%;
+    height: 90px;
+    border: var(--border);
+    border-radius: var(--radius);
+}
