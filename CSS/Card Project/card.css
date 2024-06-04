@@ -152,7 +152,7 @@ main {
 
 .card figure {
     display: flex;
-    flex-flow: column;
+    flex-flow: column wrap;
 }
 
 .card img {
