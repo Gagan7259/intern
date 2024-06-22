@@ -1,7 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap');
 
 
-* ,*::after,*::before {
+*,
+*::after,
+*::before {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -9,8 +11,10 @@
 }
 
 body {
+    background-color: #FFECE6;
+
     color: var(--Fontcolor);
-   
+
 }
 
 :root {
@@ -23,14 +27,33 @@ body {
 
 
 
-header {
+.zoho-global-header {
     background-color: var(--BGcolor);
+    color: var(--Fontcolor);
 
 }
 
+.zoho-product-header {
+    background-color: #FFECE6;
+    color: var(--Fontcolor);
+}
 
 main {
     background-color: #FFECE6;
+}
+
+.main-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+
+}
+
+.header-navbar-icon {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-end;
 }
 
 .itemm {
@@ -51,6 +74,7 @@ main {
     width: 600px;
     height: 400px;
     float: right;
+    top: -30px;
 }
 
 .h1text {
@@ -100,7 +124,7 @@ main {
     margin-left: 86px;
     aspect-ratio: 3/2;
     object-fit: contain;
-   
+
 }
 
 .brand-container-h6 {
@@ -120,6 +144,7 @@ main {
     margin-left: 13rem;
     margin-bottom: 40px;
 }
+
 .hub-image img {
     width: 70rem;
     margin-left: 8px;
@@ -158,16 +183,5 @@ main {
     color: #629ABD;
     position: absolute;
     margin-top: 28px;
-    
+
 }
-
-
-
-
-
-
-
-
-
-
-
