@@ -1,0 +1,13 @@
+
+ul li{
+    list-style-type: none;
+}
+
+.maincard {
+    display: block;
+    text-align: center;
+
+}
+.bg{
+    background-color: red;
+}

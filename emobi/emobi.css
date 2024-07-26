@@ -1,0 +1,27 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.bgbody {
+    background-color: rgb(52, 46, 46);
+}
+
+.navlft {
+    margin-left: 100px;
+}
+
+.navbar-nav .nav-link {
+    margin: 0 30px;
+}
+
+@media(max-width:768px) {
+
+    .navlft {
+        overflow-x: hidden;
+        margin-left: 230px;
+        text-align: justify;
+    }
+
+}
